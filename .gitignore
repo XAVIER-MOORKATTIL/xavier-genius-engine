@@ -1,0 +1,9 @@
+# The Secret Vault
+.env
+
+# The Heavy Baggage (Generated automatically by npm install)
+node_modules/
+package-lock.json
+
+# OS generated files
+.DS_Store
