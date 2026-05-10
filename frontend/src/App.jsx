@@ -10,9 +10,10 @@ function App() {
     try {
       // Pointing to your active Backend on Port 5000
       // Change the email to something new
-const res = await axios.post('http://localhost:5000/api/geniuses/recognize', {
-    name: "Xavier Engineer",
-    email: "xavier.v2@oll.tech" // New email = New entry
+// Inside App.jsx
+const res = await axios.post('https://xavier-genius-engine.onrender.com/api/geniuses/recognize', {
+    name: "Xavier Cloud Architect",
+    email: "xavier.cloud@oll.tech" // New email for the Cloud Vault
 });
       setResponse(res.data);
     } catch (err) {
